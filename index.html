@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eknath Mali — AI Engineer</title>
+  <meta name="description" content="AI Engineer specializing in LLM systems, RAG pipelines, and multi-agent orchestration for enterprise clients on GCP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">EM<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-menu-btn" id="navMenuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Awards</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <canvas id="neuralCanvas"></canvas>
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Mid AI Developer @ Techolution &nbsp;·&nbsp; Open to Consulting ✦
+      </div>
+      <h1 class="hero-name">
+        Eknath <span class="name-accent">Mali</span>
+      </h1>
+      <div class="hero-typewriter">
+        <span class="tw-prefix">I architect → </span>
+        <span class="tw-text" id="twText"></span>
+        <span class="tw-cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        AI Engineer with 3+ years crafting production LLM systems, multi-agent RAG pipelines &amp; scalable microservices for enterprise and government clients on GCP.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Let's Connect</a>
+        <a href="#experience" class="btn-outline">View Work</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Years Exp</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">96%+</span>
+          <span class="stat-label">AI Accuracy</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">40%</span>
+          <span class="stat-label">Latency Cut</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">100K+</span>
+          <span class="stat-label">Docs Processed</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card glass reveal">
+          <div class="about-tag">// Professional Summary</div>
+          <p class="about-text">
+            AI Engineer with <strong>2+ years</strong> building production LLM systems and RAG pipelines for enterprise and government clients. Specialist in <strong>multi-agent orchestration</strong>, scalable microservices, and Generative AI apps on GCP. Delivered measurable impact — <strong>40% latency reduction</strong> and <strong>96%+</strong> accuracy in AI applications.
+          </p>
+          <div class="about-pills">
+            <span class="pill purple">LLM Orchestration</span>
+            <span class="pill cyan">RAG Pipelines</span>
+            <span class="pill purple">Multi-Agent Systems</span>
+            <span class="pill cyan">GCP</span>
+            <span class="pill purple">Microservices</span>
+            <span class="pill cyan">Generative AI</span>
+          </div>
+        </div>
+        <div class="about-impact reveal" data-delay="150">
+          <div class="impact-card glass">
+            <div class="impact-icon">🚀</div>
+            <div class="impact-value">
+              <span class="impact-num counter" data-target="53">0</span><span class="impact-unit">%</span>
+            </div>
+            <div class="impact-label">Faster Permit Approvals</div>
+          </div>
+          <div class="impact-card glass">
+            <div class="impact-icon">⚡</div>
+            <div class="impact-value">
+              <span class="impact-num counter" data-target="40">0</span><span class="impact-unit">%</span>
+            </div>
+            <div class="impact-label">Latency Reduction</div>
+          </div>
+          <div class="impact-card glass">
+            <div class="impact-icon">🎯</div>
+            <div class="impact-value">
+              <span class="impact-num counter" data-target="96">0</span><span class="impact-unit">%+</span>
+            </div>
+            <div class="impact-label">RAG Relevance Accuracy</div>
+          </div>
+          <div class="impact-card glass">
+            <div class="impact-icon">👥</div>
+            <div class="impact-value">
+              <span class="impact-num counter" data-target="10000">0</span><span class="impact-unit">+</span>
+            </div>
+            <div class="impact-label">Concurrent Users Served</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Work <span class="accent">Experience</span></h2>
+      <div class="timeline">
+
+        <!-- Techolution -->
+        <div class="timeline-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Mid AI Python Developer <span class="promoted-badge">↑ Promoted</span></h3>
+                <div class="tl-company">Techolution · Hyderabad, India</div>
+              </div>
+              <div class="tl-date">Apr 2024 – Present</div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Led multi-agent RAG platform for <strong>HarperCollins</strong> processing 100K+ EPUB docs with vector semantic search on AlloyDB — <span class="hl cyan">96%+ relevance accuracy</span> using cosine similarity &amp; n-gram scoring</li>
+              <li>Architected LLM load balancer with intelligent routing to overcome Gemini 2.0 Flash 8K token limit — success rates from <span class="hl purple">40% → 100%</span></li>
+              <li>Built AI permit management for <strong>Georgia DOT</strong> adopted by 100+ government users — <span class="hl cyan">53% faster approvals</span>, retrieval time from weeks to under 3 minutes</li>
+              <li>Engineered document intelligence ETL pipelines on GCP (Cloud Storage, BigQuery, Document AI, YOLOv8, HITL) — extraction accuracy <span class="hl purple">60% → 95%</span>, 5× faster processing</li>
+              <li>Optimized FastAPI/Flask microservices with MongoDB, Redis &amp; SQL — <span class="hl cyan">10K+ concurrent users</span> at 97% success rate and 40% lower latency with Azure AD auth</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="mini-pill">LangChain</span><span class="mini-pill">LangGraph</span><span class="mini-pill">Google ADK</span>
+              <span class="mini-pill">GCP</span><span class="mini-pill">FastAPI</span><span class="mini-pill">AlloyDB</span>
+              <span class="mini-pill">Redis</span><span class="mini-pill">YOLOv8</span><span class="mini-pill">RAG</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aganitha.ai -->
+        <div class="timeline-item reveal" data-delay="100">
+          <div class="tl-dot tl-dot-cyan"></div>
+          <div class="tl-card glass">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Full-Stack Data Scientist Intern</h3>
+                <div class="tl-company">Aganitha.ai · Hyderabad, India</div>
+              </div>
+              <div class="tl-date">Dec 2023 – Apr 2024</div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Built dental disease detection system using <strong>YOLOv8</strong> + Flask — <span class="hl cyan">96% classification accuracy</span> across multiple disease categories</li>
+              <li>Implemented RAG-powered clinical chatbot extracting contextual insights from medical documents, improving diagnostic information access</li>
+              <li>Automated large-scale Molecular Dynamics simulations via Docker + shell scripting with fault-tolerant restart mechanisms — <span class="hl purple">100% automation</span>, 30% throughput improvement</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="mini-pill">YOLOv8</span><span class="mini-pill">Flask</span>
+              <span class="mini-pill">RAG</span><span class="mini-pill">Docker</span><span class="mini-pill">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- WorkBrick -->
+        <div class="timeline-item reveal" data-delay="200">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Data Science Intern</h3>
+                <div class="tl-company">WorkBrick · Remote</div>
+              </div>
+              <div class="tl-date">Feb 2023 – Jun 2023</div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Produced <strong>200+ instructional videos</strong> on Python, DSA, ML, DL, Flask, and FastAPI for large student cohorts with hands-on learning materials</li>
+              <li>Mentored learners on Git/GitHub workflows, improving practical adoption of version control best practices</li>
+            </ul>
+            <div class="tl-tags">
+              <span class="mini-pill">Python</span><span class="mini-pill">Machine Learning</span>
+              <span class="mini-pill">FastAPI</span><span class="mini-pill">Teaching</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Tech <span class="accent">Stack</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group glass reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🧠</span>
+            <h3>AI &amp; Machine Learning</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="spill purple">LLM Orchestration</span>
+            <span class="spill cyan">Multi-Agent Systems</span>
+            <span class="spill purple">RAG</span>
+            <span class="spill cyan">Prompt Engineering</span>
+            <span class="spill purple">Vector Search</span>
+            <span class="spill cyan">LangChain</span>
+            <span class="spill purple">LangGraph</span>
+            <span class="spill cyan">Google ADK</span>
+            <span class="spill purple">Transformers</span>
+            <span class="spill cyan">YOLO</span>
+            <span class="spill purple">NLP</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass reveal" data-delay="100">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">⚙️</span>
+            <h3>Programming &amp; Frameworks</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="spill purple">Python</span>
+            <span class="spill cyan">SQL</span>
+            <span class="spill purple">C++</span>
+            <span class="spill cyan">FastAPI</span>
+            <span class="spill purple">Flask</span>
+            <span class="spill cyan">Django</span>
+            <span class="spill purple">REST APIs</span>
+            <span class="spill cyan">Microservices</span>
+            <span class="spill purple">Celery</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass reveal" data-delay="200">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">☁️</span>
+            <h3>Databases &amp; Cloud</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="spill purple">PostgreSQL</span>
+            <span class="spill cyan">MySQL</span>
+            <span class="spill purple">MongoDB</span>
+            <span class="spill cyan">BigQuery</span>
+            <span class="spill purple">Redis</span>
+            <span class="spill cyan">AlloyDB</span>
+            <span class="spill purple">ChromaDB</span>
+            <span class="spill cyan">GCP</span>
+            <span class="spill purple">Docker</span>
+            <span class="spill cyan">Azure</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass reveal" data-delay="300">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🛠️</span>
+            <h3>Software Engineering</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="spill purple">System Design</span>
+            <span class="spill cyan">Data Structures &amp; Algorithms</span>
+            <span class="spill purple">OOP</span>
+            <span class="spill cyan">Git</span>
+            <span class="spill purple">CI/CD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Featured <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="flip-card reveal">
+          <div class="flip-inner">
+            <div class="flip-front glass">
+              <div class="project-icon">💬</div>
+              <h3>WhatsApp Chat Analyzer</h3>
+              <p>End-to-end NLP analytics platform to classify messages and visualize conversation activity trends</p>
+              <div class="flip-hint">Hover to explore →</div>
+            </div>
+            <div class="flip-back glass">
+              <h3>Tech Stack</h3>
+              <div class="flip-skills">
+                <span class="spill cyan">Python</span>
+                <span class="spill purple">NLP</span>
+                <span class="spill cyan">Decision Tree</span>
+                <span class="spill purple">Scikit-learn</span>
+                <span class="spill cyan">Matplotlib</span>
+                <span class="spill purple">Streamlit</span>
+              </div>
+              <div class="flip-metric">
+                <span class="metric-num">85%+</span>
+                <span class="metric-label">Classification Accuracy</span>
+              </div>
+              <p class="flip-detail">Categorizes urgent vs non-urgent messages with interactive temporal visualizations</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal" data-delay="150">
+          <div class="flip-inner">
+            <div class="flip-front glass">
+              <div class="project-icon">📦</div>
+              <h3>File Compressor</h3>
+              <p>Lossless file compression engine built with Huffman Algorithm and custom data structures from scratch</p>
+              <div class="flip-hint">Hover to explore →</div>
+            </div>
+            <div class="flip-back glass">
+              <h3>Tech Stack</h3>
+              <div class="flip-skills">
+                <span class="spill cyan">C++</span>
+                <span class="spill purple">Huffman Algorithm</span>
+                <span class="spill cyan">Priority Queue</span>
+                <span class="spill purple">Binary Tree</span>
+                <span class="spill cyan">DSA</span>
+              </div>
+              <div class="flip-metric">
+                <span class="metric-num">40-45%</span>
+                <span class="metric-label">File Size Reduction</span>
+              </div>
+              <p class="flip-detail">Custom priority queue + binary tree with full compression / decompression support</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card reveal" data-delay="300">
+          <div class="flip-inner">
+            <div class="flip-front glass">
+              <div class="project-icon">🤖</div>
+              <h3>Multi-Agent RAG Platform</h3>
+              <p>Enterprise-grade orchestration platform for HarperCollins processing 100K+ EPUB documents at scale</p>
+              <div class="flip-hint">Hover to explore →</div>
+            </div>
+            <div class="flip-back glass">
+              <h3>Tech Stack</h3>
+              <div class="flip-skills">
+                <span class="spill cyan">LangGraph</span>
+                <span class="spill purple">AlloyDB</span>
+                <span class="spill cyan">GCP</span>
+                <span class="spill purple">Gemini 2.0</span>
+                <span class="spill cyan">FastAPI</span>
+                <span class="spill purple">Vector Search</span>
+              </div>
+              <div class="flip-metric">
+                <span class="metric-num">96%+</span>
+                <span class="metric-label">Relevance Accuracy</span>
+              </div>
+              <p class="flip-detail">Intelligent LLM load balancing boosting success rates from 40% to 100%</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="education-card glass reveal">
+        <div class="edu-ring-wrap">
+          <svg class="edu-ring" width="150" height="150" viewBox="0 0 150 150">
+            <defs>
+              <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#A855F7" />
+                <stop offset="100%" stop-color="#22D3EE" />
+              </linearGradient>
+            </defs>
+            <circle class="ring-bg" cx="75" cy="75" r="62" />
+            <circle class="ring-progress" id="cgpaRing" cx="75" cy="75" r="62" stroke="url(#ringGrad)" />
+          </svg>
+          <div class="ring-label">
+            <span class="ring-num">9.46</span>
+            <span class="ring-sub">/ 10.0 CGPA</span>
+          </div>
+        </div>
+        <div class="edu-details">
+          <div class="edu-badge">BE Computer Engineering</div>
+          <h3 class="edu-college">Government College of Engineering &amp; Research, Avasari</h3>
+          <div class="edu-location">📍 Pune, India &nbsp;·&nbsp; 2020 – 2024</div>
+          <div class="edu-highlight">
+            <span class="badge-star">⭐</span>
+            Ranked <strong>1st</strong> in Bachelor's College across all 4 years (2020–2024)
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Awards &amp; <span class="accent">Achievements</span></h2>
+      <div class="ach-grid">
+        <div class="ach-card glass reveal">
+          <div class="ach-icon">🥇</div>
+          <div class="ach-num">1<span class="ach-sup">st</span></div>
+          <div class="ach-label">College Rank<br /><small>Bachelor's 2020–2024</small></div>
+        </div>
+        <div class="ach-card glass reveal" data-delay="100">
+          <div class="ach-icon">⚡</div>
+          <div class="ach-num">Top <span class="ach-sup">8%</span></div>
+          <div class="ach-label">LeetCode<br /><small>800+ problems solved</small></div>
+        </div>
+        <div class="ach-card glass reveal" data-delay="200">
+          <div class="ach-icon">🔥</div>
+          <div class="ach-num">Top <span class="ach-sup">1%</span></div>
+          <div class="ach-label">GeeksforGeeks<br /><small>Platform ranking</small></div>
+        </div>
+        <div class="ach-card glass reveal" data-delay="300">
+          <div class="ach-icon">🤖</div>
+          <div class="ach-num">2<span class="ach-sup">nd</span></div>
+          <div class="ach-label">National Rank<br /><small>ABU Robocon 2022 · 5th Intl.</small></div>
+        </div>
+        <div class="ach-card glass reveal" data-delay="400">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-num">11<span class="ach-sup">th</span></div>
+          <div class="ach-label">GFG Weekly Contest<br /><small>among 3,421 participants</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Get In <span class="accent">Touch</span></h2>
+      <div class="contact-wrap reveal">
+        <p class="contact-desc">
+          Open to AI engineering roles, consulting engagements &amp; interesting collaborations.<br />Let's build something production-grade together.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:malieknath135@gmail.com" class="contact-item glass">
+            <span class="ci-icon">📧</span>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-val">malieknath135@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+917249757167" class="contact-item glass">
+            <span class="ci-icon">📱</span>
+            <div>
+              <div class="ci-label">Phone</div>
+              <div class="ci-val">+91-7249757167</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/eknath-mali/" target="_blank" rel="noopener noreferrer" class="contact-item glass">
+            <span class="ci-icon">💼</span>
+            <div>
+              <div class="ci-label">LinkedIn</div>
+              <div class="ci-val">in/eknath-mali</div>
+            </div>
+          </a>
+          <a href="https://github.com/eknathmali" target="_blank" rel="noopener noreferrer" class="contact-item glass">
+            <span class="ci-icon">⌨️</span>
+            <div>
+              <div class="ci-label">GitHub</div>
+              <div class="ci-val">github.com/eknathmali</div>
+            </div>
+          </a>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/eknath-mali/" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+          <a href="https://github.com/eknathmali" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub</a>
+          <a href="https://leetcode.com/u/eknathmali/" target="_blank" rel="noopener noreferrer" class="social-btn">LeetCode</a>
+          <a href="https://www.geeksforgeeks.org/user/eknathmali/" target="_blank" rel="noopener noreferrer" class="social-btn">GFG</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">Eknath Mali<span class="dot">.</span></span>
+      <span class="footer-copy">Built with ♡ &amp; Eknath · 2026</span>
+    </div>
+  </footer>
+
+  <!-- ===== MUSIC PLAYER ===== -->
+  <div class="music-player" id="musicPlayer">
+    <audio id="bgMusic" loop>
+      <source src="Bairan  Animated Love Story  Banjaare (Official Video).mp3" type="audio/mpeg" />
+    </audio>
+    <button class="music-btn" id="musicToggle" title="Play Banjaare ♪">
+      <div class="music-bars" id="musicBars">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <span class="music-label" id="musicLabel">Play Banjaare ♪</span>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
